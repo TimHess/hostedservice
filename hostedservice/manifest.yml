@@ -1,0 +1,6 @@
+﻿applications:
+- name: hostedservice
+  path: bin/Debug/netcoreapp2.1/ubuntu.14.04-x64/publish
+  stack: cflinuxfs2
+  buildpacks:
+    - dotnet_core_buildpack
